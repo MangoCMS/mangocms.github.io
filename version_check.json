@@ -6,6 +6,12 @@ permalink: version_check.json
 {
  "mangocms":
   {
-    "friendly_name": "MangoCMS {{ site.data.latest_mangocms.version }}"
+    "friendly_name": "MangoCMS {{ site.data.latest_mangocms.version }}",
+    "latest_version": "{{ site.data.latest_mangocms.version }}",
+    "version_code": "{{ site.data.latest_mangocms.version_code }}",
+    "download_url": "{{ site.data.latest_mangocms.url }}",
+    "release_date": "{{ site.data.latest_mangocms.release }}",
+    "download_size": "{{ site.data.latest_mangocms.size }}",
+    "type": "{{ site.data.latest_mangocms.type }}"
   }
 }
