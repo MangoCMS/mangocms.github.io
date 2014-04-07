@@ -1,0 +1,8 @@
+name: MangoCMS
+markdown: redcarpet
+pygments: true
+category-list: [features]
+permalink: pretty
+baseurl: http://mangocms.github.io/
+gems:
+ - jekyll-redirect-from
